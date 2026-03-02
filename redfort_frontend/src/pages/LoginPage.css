@@ -1,0 +1,88 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.9)
+    ),
+    url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.login-card {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.login-card h1 {
+  margin-bottom: 10px;
+}
+
+.login-card p {
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.password-box {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  right: 10px;
+  top: 16px;
+  cursor: pointer;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #ff4d4d;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #ff1a1a;
+}
+
+.signup-link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: #ff4d4d;
+  text-decoration: none;
+}
+
+.error-box {
+  background: rgba(255,0,0,0.2);
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
